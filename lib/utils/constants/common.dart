@@ -1,4 +1,7 @@
+import 'package:ott_demo/provider/app_provider.dart';
 import 'package:ott_demo/utils/exports/common_exports.dart';
+
+late AppProvider appProvider;
 
 class AppDisplay {
   static bool get isDarkMode =>

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ott_demo/provider/app_provider.dart';
 import 'package:ott_demo/utils/exports/common_exports.dart';
 
 void main() {
@@ -10,14 +11,17 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "OTT Demo",
-      theme: AppTheme.theme,
-      themeMode: ThemeMode.light,
-      debugShowCheckedModeBanner: false,
-      navigatorKey: NavigationService.navigatorKey,
-      initialRoute: Routes.homeScreen,
-      onGenerateRoute: NavigationService().generateRoute,
+    return MultiProvider(
+      providers: [ChangeNotifierProvider(create: (_) => AppProvider())],
+      child: MaterialApp(
+        title: "OTT Demo",
+        theme: AppTheme.theme,
+        themeMode: ThemeMode.light,
+        debugShowCheckedModeBanner: false,
+        navigatorKey: NavigationService.navigatorKey,
+        initialRoute: Routes.homeScreen,
+        onGenerateRoute: NavigationService().generateRoute,
+      ),
     );
   }
 }
