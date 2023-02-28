@@ -1,4 +1,3 @@
-import 'package:ott_demo/main.dart';
 import 'package:ott_demo/utils/exports/common_exports.dart';
 
 class NavigationService {
