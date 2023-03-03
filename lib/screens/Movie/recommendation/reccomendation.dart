@@ -1,6 +1,5 @@
-import 'package:ott_demo/screens/Movie/recommendation/dialogBox.dart';
-import 'package:ott_demo/screens/Movie/recommendation/watchOnline.dart';
-import 'package:ott_demo/screens/Movie/recommendation/videoPlayer.dart';
+import 'package:ott_demo/screens/Movie/recommendation/dialog_box.dart';
+import 'package:ott_demo/screens/Movie/recommendation/watch_online.dart';
 import 'package:ott_demo/utils/exports/common_exports.dart';
 
 class Reccomendation extends StatelessWidget {
@@ -222,7 +221,7 @@ class Reccomendation extends StatelessWidget {
                                                   AlertDialog(
                                                 title: const Text(
                                                     'Watch here trailer'),
-                                                content: SizedBox(
+                                                content: const SizedBox(
                                                     height: 1400,
                                                     width: 1600,
                                                     child: TrailerVideo()),

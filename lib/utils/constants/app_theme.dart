@@ -39,71 +39,84 @@ class AppTheme {
       ),
     ),
     textTheme: const TextTheme(
+      // ignore: deprecated_member_use
       headline1: TextStyle(
           fontSize: 48,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w600),
+
+      // ignore: deprecated_member_use
       headline2: TextStyle(
           fontSize: 40,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w600),
+      // ignore: deprecated_member_use
       headline3: TextStyle(
           fontSize: 32,
           fontStyle: FontStyle.normal,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w600),
+      // ignore: deprecated_member_use
       headline4: TextStyle(
           fontSize: 25,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w600),
+      // ignore: deprecated_member_use
       headline5: TextStyle(
           fontSize: 20,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w600),
+      // ignore: deprecated_member_use
       headline6: TextStyle(
         fontSize: 16,
         fontFamily: "Poppins",
         color: AppColors.darkGray,
         fontWeight: FontWeight.w600,
       ),
+      // ignore: deprecated_member_use
       subtitle1: TextStyle(
           fontSize: 16,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w400),
+      // ignore: deprecated_member_use
       subtitle2: TextStyle(
           fontSize: 14,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w400),
+      // ignore: deprecated_member_use
       button: TextStyle(
         fontSize: 16,
         color: AppColors.white,
         fontFamily: "Poppins",
         fontWeight: FontWeight.w400,
       ),
+      // ignore: deprecated_member_use
       caption: TextStyle(
         fontSize: 12,
         color: AppColors.darkGray,
         fontFamily: "Poppins",
         fontWeight: FontWeight.w400,
       ),
+      // ignore: deprecated_member_use
       bodyText1: TextStyle(
           fontSize: 20,
           fontStyle: FontStyle.normal,
           color: AppColors.darkGray,
           fontFamily: "Poppins",
           fontWeight: FontWeight.w400),
+      // ignore: deprecated_member_use
       bodyText2: TextStyle(
         fontSize: 16,
         color: AppColors.darkGray,
